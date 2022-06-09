@@ -9,7 +9,7 @@ header {
     margin-top: 42px
 }
 
-main h1{
+main h1 {
     font-family: 'IBM Plex Sans';
     font-weight: 600;
     font-size: 32px;
@@ -22,10 +22,10 @@ main h1{
     max-width: 700px;
     display: flex;
     margin: 0 auto;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 
-.perfil-box{
+.perfil-box {
     width: 160px;
     display: flex;
     flex-direction: column;
@@ -33,37 +33,42 @@ main h1{
     justify-content: center;
 }
 
-.perfil-box:hover img{
+.perfil-box img {
+    border: solid transparent 1px;
+    transition: 0.5s;
+}
+
+.perfil-box:hover img {
     border: solid #FFFFFF 1px;
-    transition: 0.5s ease;
+    transition: 0.5s;
 }
 
-.perfil-box:hover p{
+.perfil-box:hover p {
     color: #FFFFFF;
-    transition: 0.5s ease;
+    transition: 0.5s;
 }
 
-.perfil-box p{
+.perfil-box p {
     font-family: 'IBM Plex Sans';
     font-weight: 600;
     font-size: 14px;
     color: #9C9C9C;
 }
 
-.perfil-box img{
+.perfil-box img {
     border-radius: 8px;
     margin-bottom: 16px;
 }
 
-.perfil-box-add{
+.perfil-box-add {
     width: 160px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content:flex-start;
+    justify-content: flex-start;
 }
 
-.perfil-box-add p{
+.perfil-box-add p {
     font-family: 'IBM Plex Sans';
     font-weight: 600;
     font-size: 14px;
@@ -80,20 +85,28 @@ main h1{
     align-items: center;
     justify-content: center;
     margin-bottom: 16px;
+    border: solid transparent 1px;
+    transition: 0.5s;
 }
 
-.perfil-box-add:hover .fundo{
+.perfil-box-add:hover .fundo {
     border: solid #FFFFFF 1px;
-    transition: 0.5s ease;
+    transition: 0.5s;
 }
 
-.perfil-box-add:hover img {
+.fundo-img {
+    width: 65px;
+    height: 68px;
+    background: url(./src/img/plus-circle.png)
+}
+
+.fundo:hover .fundo-img {
     background: url(./src/img/plus-circle\ \(1\).png);
-    transition: 0.5s ease;
+    transition: 0.5s;
 }
 
-.perfil-box-add:hover p{
-    transition: 0.5s ease;
+.perfil-box-add:hover p {
+    transition: 0.5s;
     color: #FFFFFF;
 }
 
@@ -103,7 +116,7 @@ main h1{
     margin-top: 116px;
 }
 
-.button a{
+.button a {
     text-decoration: none;
     font-family: 'IBM Plex Sans';
     font-weight: 500;
@@ -115,8 +128,8 @@ main h1{
     margin-bottom: 88px;
 }
 
-.button a:hover{
+.button a:hover {
     background: #FFFFFF;
     color: #000000;
-    transition: 0.5s ease;
+    transition: 0.5s;
 }
