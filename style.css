@@ -100,7 +100,7 @@ main h1 {
     background: url(./src/img/plus-circle.png)
 }
 
-.fundo:hover .fundo-img {
+.perfil-box-add:hover .fundo-img {
     background: url(./src/img/plus-circle\ \(1\).png);
     transition: 0.5s;
 }
