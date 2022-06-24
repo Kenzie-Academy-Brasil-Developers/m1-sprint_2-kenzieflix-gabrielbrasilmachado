@@ -31,6 +31,7 @@ main h1 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
 }
 
 .perfil-box img {
@@ -66,6 +67,7 @@ main h1 {
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    text-decoration: none;
 }
 
 .perfil-box-add p {
